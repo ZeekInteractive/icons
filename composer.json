@@ -1,0 +1,40 @@
+{
+	"name": "zeek/icons",
+	"description": "Simple, easy to use icons.",
+	"type": "library",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Aaron Holbrook",
+			"email": "aaron@zeek.com",
+			"homepage": "https://aaronjholbrook.com"
+		},
+		{
+			"name": "Zeek Interactive",
+			"email": "info@zeek.com",
+			"homepage": "https://zeek.com"
+		}
+	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://packages.zeeklabs.com",
+			"options": {
+				"http": {
+					"header": [
+						"Authorization: Basic emVlazpZWXltRTZsdklKMEp1Q3J5Ulc0NTEybA=="
+					]
+				}
+			}
+		}
+	],
+	"autoload": {
+		"files": [
+			"package.php"
+		]
+	},
+	"require": {
+		"php": "7.0",
+		"a7/autoload": "^2.0.9.1"
+	}
+}
